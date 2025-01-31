@@ -34,9 +34,13 @@ else:
 # for - loop
 # while - loops
 
-# clear
+# while
+count = 0
+while count < 5:
+    print(count)
+    count = count+1
 
-# for
+# # for
 counts = 0
 for counts in range(5):
     print (counts)
