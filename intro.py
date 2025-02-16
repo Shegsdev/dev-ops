@@ -10,9 +10,9 @@ print(x)
 # # boolean
 # is_loggedin = True
 # # dictionaries - they are key value pairs
-# user_info = {"name": "John" , "age": 20}
+user_info = {"name": "John" , "age": 20}  # user_info["name"] / user_info.get("name")
 # # list  - comes with []
-# groceries = ["towel" , "soaps"]
+groceries = ["towel" , "soaps"]
 # # tuples - the () are optional
 # even_numbers = (2, 4 , 6 , 8)
 
@@ -37,11 +37,16 @@ else:
 # while
 count = 0
 while count < 5:
-    print(count)
-    count = count+1
+    # print(count)
+    count +=1
 
 # # for
-counts = 0
+# counts = 0
 for counts in range(5):
     print (counts)
+
+
+# import kwd
+# print(keywords)
+
 
