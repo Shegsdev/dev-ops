@@ -40,10 +40,9 @@
 # print(sys.version)
 
 # import my_module
-# from my_module import add
-
-
 # print(my_module.add(2, 3))
+
+# from my_module import add
 # print(add(2, 3))
 
 
@@ -53,26 +52,3 @@
 
 #write up subprocess
 
-# Classwork execerse 1
-
-# 1. Sum of Two Numbers
-#    Write a function add(a, b) that takes two numbers as parameters and returns their sum.
-
-def total_sum (a, b):
-    sum = (a + b)
-    return sum
-
-
-print(total_sum(55 , 93))
-
-# 2. Factorial of a Number
-#    Write a function factorial(n) that takes a number n as input and returns the factorial of n (n!).
-
-def factorial_n (n):
-    factorial = 1
-    for i in range(1,  n + 1):
-        factorial *=i
-    return factorial
-
-
-print(factorial_n(5))
